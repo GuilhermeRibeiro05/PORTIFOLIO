@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Guilherme Ribeiro Costa, estudante de Tecnologia da Informação e praticante de futevôlei.">
+  <meta name="theme-color" content="#101827">
+  <title>Guilherme Ribeiro | Portfólio</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="site-header" id="topo">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Guilherme Ribeiro - início">
+        <span class="brand-mark">GR</span>
+        <span>Guilherme<span class="brand-dot">.</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="main-nav" aria-label="Navegação principal">
+        <a href="#sobre">Sobre mim</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#hobby">Meu hobby</a>
+        <a class="nav-contact" href="#contato">Contato <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span class="status-dot"></span> Estudante de Tecnologia da Informação</div>
+          <p class="hero-kicker">Olá, meu nome é</p>
+          <h1>Guilherme<br><span>Ribeiro Costa.</span></h1>
+          <p class="hero-description">Estou no 2º semestre de TI e gosto de transformar ideias em soluções digitais. Atualmente, estou desenvolvendo minhas habilidades em programação, desenvolvimento web e banco de dados.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projetos">Ver meus projetos <span aria-hidden="true">↗</span></a>
+            <a class="button button-ghost" href="#sobre">Conheça minha história</a>
+          </div>
+          <div class="hero-note"><span class="note-line"></span> Aprendendo, praticando e evoluindo um código de cada vez.</div>
+        </div>
+
+        <div class="hero-art-wrap reveal" aria-label="Ilustração de tecnologia e esporte" role="img">
+          <div class="hero-orbit orbit-one"></div>
+          <div class="hero-orbit orbit-two"></div>
+          <div class="hero-card card-code">
+            <span class="code-dots"><i></i><i></i><i></i></span>
+            <code><span class="code-purple">const</span> <span class="code-green">objetivo</span> = {<br>&nbsp; aprender: <span class="code-orange">true</span>,<br>&nbsp; praticar: <span class="code-orange">true</span>,<br>&nbsp; evoluir: <span class="code-orange">true</span><br>};</code>
+          </div>
+          <div class="hero-art-circle">
+            <img src="images/futvolei.svg" alt="Ilustração de uma bola de futevôlei próxima à rede na praia">
+          </div>
+          <div class="floating-tag tag-tech"><span>⌘</span> Tecnologia</div>
+          <div class="floating-tag tag-sport"><span>✦</span> Futevôlei</div>
+          <div class="hero-index">PORTFÓLIO <span>2026</span></div>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>BRASÍLIA — DF</span><a href="#sobre">ROLE PARA EXPLORAR <span aria-hidden="true">↓</span></a><span>01 / 05</span></div>
+    </section>
+
+    <section class="section about-section" id="sobre">
+      <div class="container two-column">
+        <div class="section-heading reveal">
+          <p class="section-label">01 — QUEM SOU EU</p>
+          <h2>Curioso por natureza.<br><span>Estudante por escolha.</span></h2>
+        </div>
+        <div class="about-text reveal">
+          <p class="large-copy">Sou estudante de Tecnologia da Informação, atualmente no segundo semestre. Estou construindo minha base na área e descobrindo, na prática, como a tecnologia pode resolver problemas do dia a dia.</p>
+          <p>Tenho interesse em programação, criação de páginas web e banco de dados. Gosto de aprender coisas novas, trabalhar em equipe e encarar desafios que me ajudem a crescer tanto pessoal quanto profissionalmente.</p>
+          <div class="about-facts">
+            <div><strong>02º</strong><span>Semestre de TI</span></div>
+            <div><strong>100%</strong><span>Vontade de aprender</span></div>
+            <div><strong>DF</strong><span>Brasília, Brasil</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="habilidades">
+      <div class="container">
+        <div class="section-heading centered reveal">
+          <p class="section-label">02 — O QUE ESTOU DESENVOLVENDO</p>
+          <h2>Conhecimento em <span>construção.</span></h2>
+          <p class="section-intro">Estas são algumas das tecnologias e competências que estou estudando e praticando durante minha formação.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-icon">&lt;/&gt;</div>
+            <h3>Desenvolvimento Web</h3>
+            <p>Estruturação de páginas com HTML, estilização com CSS e interatividade com JavaScript.</p>
+            <div class="skill-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">{ }</div>
+            <h3>Programação</h3>
+            <p>Lógica de programação, algoritmos, estruturas condicionais, laços e funções.</p>
+            <div class="skill-tags"><span>Lógica</span><span>Linguagem C</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">▤</div>
+            <h3>Banco de Dados</h3>
+            <p>Modelagem de dados e prática com comandos SQL para consultar e organizar informações.</p>
+            <div class="skill-tags"><span>SQL</span><span>MySQL</span></div>
+          </article>
+          <article class="skill-card reveal">
+            <div class="skill-icon">◈</div>
+            <h3>Competências pessoais</h3>
+            <p>Comunicação, organização, colaboração e disposição para aprender continuamente.</p>
+            <div class="skill-tags"><span>Equipe</span><span>Comunicação</span></div>
+          </article>
+        </div>
+        <p class="skills-footnote">* Nível de conhecimento em desenvolvimento, de acordo com minha etapa atual de formação.</p>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projetos">
+      <div class="container">
+        <div class="projects-heading reveal">
+          <div class="section-heading">
+            <p class="section-label">03 — NA PRÁTICA</p>
+            <h2>Projetos e <span>experiências.</span></h2>
+          </div>
+          <p class="projects-intro">Exercícios e projetos acadêmicos que fazem parte da minha jornada de aprendizado em TI.</p>
+        </div>
+        <div class="projects-list">
+          <article class="project-row reveal">
+            <div class="project-number">01</div>
+            <div class="project-main"><p class="project-type">LINGUAGEM C · PROJETO ACADÊMICO</p><h3>Sistema de gerenciamento de senhas</h3><p>Proposta de um sistema para organizar a fila de atendimento de uma clínica, aplicando lógica de programação e regras de prioridade.</p><div class="project-tags"><span>Linguagem C</span><span>Estruturas condicionais</span><span>Filas</span></div></div>
+            <div class="project-arrow" aria-hidden="true">↗</div>
+          </article>
+          <article class="project-row reveal">
+            <div class="project-number">02</div>
+            <div class="project-main"><p class="project-type">BANCO DE DADOS · ESTUDO</p><h3>Consultas e manipulação de dados</h3><p>Prática de comandos SQL, criação de consultas e uso de funções e procedimentos para trabalhar com informações.</p><div class="project-tags"><span>SQL</span><span>MySQL</span><span>Consultas</span></div></div>
+            <div class="project-arrow" aria-hidden="true">↗</div>
+          </article>
+          <article class="project-row reveal">
+            <div class="project-number">03</div>
+            <div class="project-main"><p class="project-type">FRONT-END · PROJETO ATUAL</p><h3>Meu portfólio pessoal</h3><p>Desenvolvimento deste site para apresentar minha trajetória, meus estudos e um pouco da minha personalidade usando HTML, CSS e JavaScript.</p><div class="project-tags"><span>HTML</span><span>CSS responsivo</span><span>JavaScript</span></div></div>
+            <div class="project-arrow" aria-hidden="true">↗</div>
+          </article>
+        </div>
+        <p class="project-disclaimer">Os projetos são apresentados como experiências acadêmicas e podem ser complementados com links, imagens e repositórios conforme forem publicados.</p>
+      </div>
+    </section>
+
+    <section class="section hobby-section" id="hobby">
+      <div class="container hobby-grid">
+        <div class="hobby-visual reveal">
+          <div class="hobby-photo-frame"><img src="images/futvolei.svg" alt="Bola de futevôlei e rede em uma quadra de areia"></div>
+          <span class="hobby-stamp">FORA<br>DO<br>WI-FI</span>
+        </div>
+        <div class="hobby-copy reveal">
+          <p class="section-label">04 — ALÉM DA TECNOLOGIA</p>
+          <h2>Meu hobby é<br><span>futevôlei.</span></h2>
+          <p>Quando não estou estudando, gosto de praticar futevôlei. É um esporte que mistura movimento, diversão e trabalho em equipe.</p>
+          <p>Além de ser uma ótima forma de manter o corpo ativo, o futevôlei me ajuda a desenvolver concentração, disciplina e cooperação — habilidades que também levo para os estudos e projetos.</p>
+          <div class="hobby-quote">“Equilíbrio também faz parte da evolução.”</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contato">
+      <div class="container contact-inner reveal">
+        <p class="section-label">05 — VAMOS CONVERSAR?</p>
+        <h2>Uma boa ideia começa<br>com uma <span>conversa.</span></h2>
+        <p>Estou aberto a aprender, trocar experiências e conhecer novas oportunidades na área de tecnologia.</p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:SEU-EMAIL@EXEMPLO.COM" id="email-link">Enviar um e-mail <span aria-hidden="true">↗</span></a>
+          <a class="button button-ghost" href="https://github.com/SEU-USUARIO" target="_blank" rel="noopener noreferrer">Meu GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="contact-edit-note">Antes de publicar, substitua o e-mail e o endereço do GitHub pelos seus dados.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="#inicio"><span class="brand-mark">GR</span><span>Guilherme<span class="brand-dot">.</span></span></a>
+      <p>Feito com dedicação, HTML, CSS e JavaScript.</p>
+      <p>© <span id="current-year">2026</span> Guilherme Ribeiro Costa</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="Voltar ao topo">↑</button>
+</body>
+</html>
